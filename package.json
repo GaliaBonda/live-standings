@@ -1,0 +1,12 @@
+{
+  "name": "live-standings",
+  "private": true,
+  "scripts": {
+    "db:up": "docker compose up -d",
+    "dev": "pnpm --filter api dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "dev:web": "pnpm --filter mobile web",
+    "test": "pnpm --filter api test"
+  },
+  "packageManager": "pnpm@10.4.0"
+}

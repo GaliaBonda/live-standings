@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Live Standings",
+    "slug": "live-standings",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0b1220",
+    "ios": { "supportsTablet": true },
+    "android": { "package": "com.galiabonda.livestandings" },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "backgroundColor": "#0b1220"
+    },
+    "plugins": []
+  }
+}
